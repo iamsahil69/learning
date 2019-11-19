@@ -20,7 +20,6 @@ import java.awt.event.*;
     M_course.add("Mix. Veg");
     M_course.add("Dal");
     M_course.add("Mushroom");
-
   Dessert = new Choice();
   Dessert.add("--select--");
   Dessert.add("Rasgullas");
@@ -66,16 +65,12 @@ import java.awt.event.*;
           add(mc);add(M_course);add(t2);
           add(d);add(Dessert);add(t3);
           add(b);
-
-            add(dishes);add(plates);
-            add(yo);
+          add(dishes);add(plates);
+          add(yo);
           add(bs);
           add(mb);
           add(db);
           add(tb);
-
-
-
           setVisible(true);
           setSize(600,600);
           setLayout(null);
@@ -102,16 +97,11 @@ public void actionPerformed(ActionEvent e){
     int t = s+m+d;
     yo.setText("Your Bill");
     bs.setText("Snacks :"+Si+"  "+sq+" * "+String.valueOf(SA[si])+" = "+String.valueOf(s));
-    // +Si+"  "+sq+" * "+String.valueOf(SA[si])+" = "+String.valueOf(s));
     mb.setText("M_course :"+Mi+"  "+mq+" * "+String.valueOf(MA[mi])+" = "+String.valueOf(m));
-     // "+Mi+"  "+mq+" * "+String.valueOf(MA[mi])+" = "+String.valueOf(m));
     db.setText("Dessert :"+Di+"  "+dq+" * "+String.valueOf(DA[di])+" = "+String.valueOf(d)+"Total :"+" = "+String.valueOf(t));
-    // +Di+"  "+dq+" * "+String.valueOf(DA[di])+" = "+String.valueOf(d));
-    // tb.setText("Total :"+" = "+String.valueOf(s));
-    // +" = "+String.valueOf(s));
+    }
   }
 }
-  }
   public class Rest{
     public static void main(String[] args){
       Restaraunt r = new Restaraunt();
