@@ -6,7 +6,8 @@ Some information about these files
 This is a simple GUI application created for Restaraunt for taking orders and showing bill to the customer.
 2) Bank2.java
 This is a simple console application created in java for bank users where users can put their account details and 
-access their accounts.This is created using constructors in java.
+access their accounts.This is created using constructors in java.Various methods are created for various tasks to be done
+like show user account details, withdrawing money, depositing money to account etc.
 3) Bank3.java
 This is similar to above console application with a difference that it is created without use of constructors.
 It runs in the same manner as the above application.
