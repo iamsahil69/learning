@@ -11,6 +11,6 @@ access their accounts.This is created using constructors in java.
 This is similar to above console application with a difference that it is created without use of constructors.
 It runs in the same manner as the above application.
 
-If anyone want to check these files how they run just download them and compile them just like normal java file and execute it...
+If anyone want to check these files how they run just download them and compile them just like normal java file and execute them...
 
 
