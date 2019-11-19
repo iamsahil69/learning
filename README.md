@@ -11,6 +11,8 @@ like show user account details, withdrawing money, depositing money to account e
 3) Bank3.java
 This is similar to above console application with a difference that it is created without use of constructors.
 It runs in the same manner as the above application.
+4) stu_result.java
+This is java that will create result of 100 students automatically using random function and show the 
 
 If anyone want to check these files how they run just download them and compile them just like normal java file and execute them...
 
